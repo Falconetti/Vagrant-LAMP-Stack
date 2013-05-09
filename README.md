@@ -44,3 +44,38 @@ You can now access your project at [http://server.dev](http://server.dev)
 
 ### Memcached
 * Port: 11211
+
+
+
+Einrichtung Lamp-Vagrant
+- Es wird folgendes Repo genutzt: 
+https://github.com/MiniCodeMonkey/Vagrant-LAMP-Stack
+
+Eine Anleitung befindet sich im Repo.
+
+
+Fork mit Erweiterungen herunterladen:
+$ git clone git@github.com:Falconetti/Vagrant-LAMP-Stack --recursive
+
+
+
+Vagrant installieren:
+http://downloads.vagrantup.com/tags/v1.2.2
+
+Virtual Box installieren:
+ 4.2.12
+
+
+
+Vagrant starten:
+$ cd Vagrant-LAMP-Stack
+Vagrant hostmaster installieren
+$ vagrant plugin install vagrant-hostmanager
+$ vagrant up
+
+Evtl. startet der Server nicht durch. Es hilft den Server in vmware zu löschen und dann noch einmal init zu starten.
+
+Im Anschluss ist der Server verfügbar unter:
+http://server.dev
+
+
