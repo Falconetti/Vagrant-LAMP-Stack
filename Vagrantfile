@@ -44,6 +44,9 @@ Vagrant::Config.run do |config|
     chef.add_recipe "dotdeb"
     chef.add_recipe "dotdeb::php54"
     chef.add_recipe "php"
+    chef.add_recipe "xdebug"
+    chef.add_recipe "webgrind"
+    chef.add_recipe "phpunit"
     chef.json = {
       :misc => {
         # Project name

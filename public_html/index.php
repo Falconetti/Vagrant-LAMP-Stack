@@ -104,6 +104,15 @@ if ($m->addServer('localhost', 11211)) {
 					<td>Memcached version</td>
 					<td><?php echo ($memcached_version ? $memcached_version : 'N/A'); ?></td>
 				</tr>
+				
+				<tr>
+					<td>Webgrid<br />is available under each Domain under /webgrind</td>
+					<td><a href="http://172.90.90.90/webgrind/">Webgrind</a></td>
+				</tr>
+				<tr>
+					<td>PHPUnit</td>
+					<td>3.7.19</td>
+				</tr>
 			</table>
 
 			<h3>PHP Modules</h3>
